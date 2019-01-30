@@ -1,0 +1,38 @@
+
+Tabella: Squadra di Basket
+
+Colonne:
+  - nome - VARCHAR(30) - NOTNULL
+  - classifica - TINYINT(2) - UNIQUE
+  - logo squadra - VARCHAR(50) - UNIQUE
+  - allenatore - VARCHAR(30)
+  - nomi giocatori - TEXT
+  - presidente - VARCHAR(30)
+  - città - VARCHAR(30)
+  - titoli vinti - TINYINT(3)
+  - colori principali - VARCHAR(40)
+  - valore società - INT(9)
+  - anno fondazione - YEAR
+
+
+
+Tabella: Concessionario auto usate:
+
+Colonne:
+  - targa - VARCHAR(7) - NOTNULL
+  - marca - VARCHAR(15) - NOTNULL
+  - modello - VARCHAR(25) - UNIQUE
+  - foto - VARCHAR(50) - UNIQUE
+  - chilometraggio - MEDIUMINT(6) - NOTNULL
+  - anno immatricolazione - DATE - NOTNULL
+  - cavalli - SMALL(4)
+  - cilindrata - SMALL(5)
+  - carburante - VARCHAR(15)
+  - carrozzeria - VARCHAR(25)
+  - cambio - VARCHAR(15)
+  - porte - TINYINT(1)
+  - posti a sedere - TINYINT(2)
+  - colore - VARCHAR(30)
+  - ultima revisione - DATE
+  - ultimo intestatario - VARCHAR(30)
+  - prezzo - MEDIUMINT(6) - NOTNULL
